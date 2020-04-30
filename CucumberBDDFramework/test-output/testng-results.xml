@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63253" started-at="2020-04-30T02:49:34Z" finished-at="2020-04-30T02:50:37Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="PersonalConsumerMaintenance.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomation.TestRunners.PersonalConsumer.PersonalConsumerMaintenance@42607a4f]" name="feature" class="com.testautomation.TestRunners.PersonalConsumer.PersonalConsumerMaintenance"/>
+        <method signature="Personalconsumersetup.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomation.TestRunners.PersonalConsumer.Personalconsumersetup@4fb64261]" name="feature" class="com.testautomation.TestRunners.PersonalConsumer.Personalconsumersetup"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="63253" started-at="2020-04-30T02:49:34Z" finished-at="2020-04-30T02:50:37Z">
+      <class name="com.testautomation.TestRunners.PersonalConsumer.Personalconsumersetup">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testautomation.TestRunners.PersonalConsumer.Personalconsumersetup@4fb64261]" name="setUpClass" is-config="true" duration-ms="394" started-at="2020-04-30T02:49:34Z" finished-at="2020-04-30T02:49:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomation.TestRunners.PersonalConsumer.Personalconsumersetup@4fb64261]" name="feature" duration-ms="23873" started-at="2020-04-30T02:49:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-30T02:49:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personal Consumer Setup]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testautomation.TestRunners.PersonalConsumer.Personalconsumersetup@4fb64261]" name="setup" is-config="true" duration-ms="3" started-at="2020-04-30T02:49:58Z" finished-at="2020-04-30T02:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testautomation.TestRunners.PersonalConsumer.Personalconsumersetup@4fb64261]" name="tearDownClass" is-config="true" duration-ms="927" started-at="2020-04-30T02:49:58Z" finished-at="2020-04-30T02:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testautomation.TestRunners.PersonalConsumer.Personalconsumersetup -->
+      <class name="com.testautomation.TestRunners.PersonalConsumer.PersonalConsumerMaintenance">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testautomation.TestRunners.PersonalConsumer.PersonalConsumerMaintenance@42607a4f]" name="setUpClass" is-config="true" duration-ms="28" started-at="2020-04-30T02:49:59Z" finished-at="2020-04-30T02:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomation.TestRunners.PersonalConsumer.PersonalConsumerMaintenance@42607a4f]" name="feature" duration-ms="37663" started-at="2020-04-30T02:49:59Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-30T02:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personal Consumer Maintenance]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testautomation.TestRunners.PersonalConsumer.PersonalConsumerMaintenance@42607a4f]" name="tearDownClass" is-config="true" duration-ms="197" started-at="2020-04-30T02:50:37Z" finished-at="2020-04-30T02:50:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testautomation.TestRunners.PersonalConsumer.PersonalConsumerMaintenance -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -12,7 +12,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 @CucumberOptions(
         features ="./features",
         glue = {"com.testautomation.StepDefination"},
-        tags = {"@PCSetUp"},
+        tags = {"@PersonalConsumerSetUp"},
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",
                 "pretty",
                 "html:target/cucumber-reports/cucumber-pretty",
